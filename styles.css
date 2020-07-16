@@ -175,6 +175,7 @@ header {
 
 .right-message {
   align-self: flex-end;
+  filter: invert(0.85);
 }
 .right-message .user-name {
   display: none;
