@@ -105,6 +105,7 @@ header {
 .user-info {
   display: flex;
   flex-direction: column;
+  width: 70%;
 }
 .user-info .message-preview {
   font-size: 70%;
