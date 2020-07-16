@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat</title>
+    <link rel="stylesheet" href="./icons.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="main">
-      <div class="left-nav">
+      <!-- Navbar for User -->
+      <section class="left-nav">
         <header>
           <span class="icon profile"></span>
           <div class="options">
@@ -22,6 +24,7 @@
             <input class="search-bar" type="search" />
           </div>
         </div>
+        <!-- User List container -->
         <div class="user-list">
           <div class="user-container">
             <div class="user-bar">
@@ -36,20 +39,110 @@
               <span class="notification">5</span>
             </div>
           </div>
+          <div class="user-container selected">
+            <div class="user-bar">
+              <span class="icon profile batman"></span>
+              <div class="user-info">
+                <span class="user-name">Batman</span>
+                <span class="message-preview">Hello</span>
+              </div>
+            </div>
+            <div class="message-info">
+              <span class="time">10:01 AM</span>
+              <span class="notification"></span>
+            </div>
+          </div>
+          <div class="user-container">
+            <div class="user-bar">
+              <span class="icon profile justice"></span>
+              <div class="user-info">
+                <span class="user-name">Super Secret Justice League</span>
+                <span class="message-preview">Batman added you</span>
+              </div>
+            </div>
+            <div class="message-info">
+              <span class="time">10:00 AM</span>
+              <span class="notification">1</span>
+            </div>
+          </div>
+          <div class="user-container">
+            <div class="user-bar">
+              <span class="icon profile joker"></span>
+              <div class="user-info">
+                <span class="user-name">Joker</span>
+                <span class="message-preview"
+                  >If you're good at something never do it for free.</span
+                >
+              </div>
+            </div>
+            <div class="message-info">
+              <span class="time">7:00 AM</span>
+              <span class="notification">1</span>
+            </div>
+          </div>
+          <!-- <div class="user-container">
+            <div class="user-bar">
+              <span class="icon profile joker"></span>
+              <div class="user-info">
+                <span class="user-name">Joker</span>
+                <span class="message-preview"
+                  >If you're good at something never do it for free.</span
+                >
+              </div>
+            </div>
+            <div class="message-info">
+              <span class="time">7:00 AM</span>
+              <span class="notification">1</span>
+            </div>
+          </div>
+          <div class="user-container">
+            <div class="user-bar">
+              <span class="icon profile joker"></span>
+              <div class="user-info">
+                <span class="user-name">Joker</span>
+                <span class="message-preview"
+                  >If you're good at something never do it for free.</span
+                >
+              </div>
+            </div>
+            <div class="message-info">
+              <span class="time">7:00 AM</span>
+              <span class="notification">1</span>
+            </div>
+          </div> -->
         </div>
-      </div>
-      <div class="chat">
+        <!-- User List ends -->
+      </section>
+
+      <!-- Chat Section -->
+      <section class="chat">
         <header>
           <div class="user-bar">
-            <span class="icon profile"></span>
-            <span class="user-name">Shivanshu</span>
+            <span class="icon profile batman"></span>
+            <span class="user-name">Batman</span>
           </div>
           <div class="options">
             <span class="icon search-icon"></span>
             <span class="icon more-icon"></span>
           </div>
         </header>
-      </div>
+        <div class="chat-area">
+          <div class="message">
+            <span class="user-name">Batman</span>
+            <span class="text">Sssup yoooo</span>
+            <span class="time">7:00 PM</span>
+        </div>
+          <div class="message right">
+            <span class="user-name">Batman</span>
+            <span class="text">Sssup yoooo</span>
+            <span class="time">7:00 PM</span>
+        </div>
+          <div class="message">
+            <span class="user-name">Batman</span>
+            <span class="text">Sssup yoooo</span>
+            <span class="time">7:00 PM</span>
+        </div>
+      </section>
     </div>
   </body>
 </html>

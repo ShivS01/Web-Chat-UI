@@ -1,0 +1,44 @@
+.icon {
+  width: 1.8em;
+  height: 1.8em;
+  background-size: 1.5em;
+  margin: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+}
+.profile {
+  background-image: url("./img/profile.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: 100px;
+  border-radius: 50%;
+}
+.chat-icon {
+  background-image: url("./svgs/comment-alt-lines.svg");
+  /* filter: invert(1); */
+}
+.more-icon {
+  background-image: url("./svgs/ellipsis-h.svg");
+  transform: rotate(90deg);
+}
+.search-icon {
+  background-image: url("./svgs/search.svg");
+}
+.batman {
+  background-image: url("./img/batman.jpg");
+}
+.justice {
+  background-image: url("./img/DC.jpg");
+}
+.joker {
+  background-image: url("./img/joker.jpg");
+}
+
+header .icon {
+  filter: invert(1);
+}
+header .profile {
+  filter: unset;
+}
