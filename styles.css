@@ -8,14 +8,19 @@
 body {
   background-color: rgb(63, 60, 60);
   height: 100vh;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 .main {
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  align-items: center;
   /* justify-content: flex-start; */
-  padding: 50px;
+  padding: 40px;
 }
 .left-nav,
 .chat {
@@ -131,7 +136,7 @@ header {
   justify-content: flex-start;
   padding: 10px;
   height: 100%;
-  background-color: gray;
+  background-color: #dddddd;
   overflow-y: auto;
 }
 
@@ -149,9 +154,8 @@ header {
 }
 
 .message .user-name {
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
-  color: blue;
   align-self: flex-start;
 }
 .message .text {
@@ -164,6 +168,9 @@ header {
   filter: invert(0.5);
 }
 
-.right {
+.right-message {
   align-self: flex-end;
+}
+.right-message .user-name {
+  display: none;
 }
