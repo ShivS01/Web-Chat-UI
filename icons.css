@@ -35,7 +35,19 @@
 .joker {
   background-image: url("./img/joker.jpg");
 }
-
+.ironman {
+  background-image: url("./img/ironman.jpg");
+}
+.avengers {
+  background-image: url("./img/Avengers.jpg");
+  background-size: 4em;
+}
+.doge {
+  background-image: url("./img/doge.jpg");
+}
+.meme {
+  background-image: url("./img/meme.jpg");
+}
 header .icon {
   filter: invert(1);
 }
