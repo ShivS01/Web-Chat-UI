@@ -19,7 +19,7 @@ body {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  /* justify-content: flex-start; */
+  background-image: linear-gradient(white, blue);
   padding: 40px;
 }
 .left-nav,
@@ -138,6 +138,17 @@ header {
   height: 100%;
   background-color: #dddddd;
   overflow-y: auto;
+}
+.send-box {
+  z-index: 2;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  border-radius: 10px;
+  flex-direction: row;
+  background-color: rgb(188, 184, 235);
+  /* outline: auto; */
 }
 
 .message {

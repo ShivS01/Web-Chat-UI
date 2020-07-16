@@ -48,9 +48,32 @@
 .meme {
   background-image: url("./img/meme.jpg");
 }
+.emoticon {
+  background-image: url("./svgs/grin.svg");
+}
+.send {
+  background-image: url("./svgs/paper-plane.svg");
+  background-color: #3474eb;
+  border-radius: 4px;
+}
+.record {
+  background-image: url("./svgs/microphone.svg");
+  background-size: 1em;
+}
+.attachment {
+  background-image: url("./svgs/paperclip.svg");
+}
 header .icon {
   filter: invert(1);
 }
 header .profile {
+  filter: unset;
+}
+
+.icon:hover {
+  filter: invert(1);
+}
+
+.profile:hover {
   filter: unset;
 }
