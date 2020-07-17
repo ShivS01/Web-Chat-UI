@@ -1,3 +1,4 @@
+/* icons */
 .icon {
   width: 1.8em;
   height: 1.8em;
@@ -8,17 +9,8 @@
   cursor: pointer;
   display: block;
 }
-.profile {
-  background-image: url("./img/profile.jpg");
-  width: 50px;
-  height: 50px;
-  background-size: 100px;
-  border-radius: 50%;
-  margin-right: 16px;
-}
 .chat-icon {
   background-image: url("./svgs/comment-alt-lines.svg");
-  /* filter: invert(1); */
 }
 .more-icon {
   background-image: url("./svgs/ellipsis-h.svg");
@@ -26,6 +18,31 @@
 }
 .search-icon {
   background-image: url("./svgs/search.svg");
+}
+.emoticon-icon {
+  background-image: url("./svgs/grin.svg");
+}
+.send-icon {
+  background-image: url("./svgs/paper-plane.svg");
+  background-color: #3474eb;
+  border-radius: 4px;
+}
+.record-icon {
+  background-image: url("./svgs/microphone.svg");
+  background-size: 1em;
+}
+.attachment-icon {
+  background-image: url("./svgs/paperclip.svg");
+}
+
+/* profile pictures */
+.profile {
+  background-image: url("./img/profile.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: 100px;
+  border-radius: 50%;
+  margin-right: 16px;
 }
 .batman {
   background-image: url("./img/batman.jpg");
@@ -49,21 +66,6 @@
 .meme {
   background-image: url("./img/meme.jpg");
 }
-.emoticon {
-  background-image: url("./svgs/grin.svg");
-}
-.send {
-  background-image: url("./svgs/paper-plane.svg");
-  background-color: #3474eb;
-  border-radius: 4px;
-}
-.record {
-  background-image: url("./svgs/microphone.svg");
-  background-size: 1em;
-}
-.attachment {
-  background-image: url("./svgs/paperclip.svg");
-}
 header .icon {
   filter: invert(1);
 }
@@ -71,11 +73,11 @@ header .profile {
   filter: unset;
 }
 
+/* icon animation/effects */
 .icon:hover {
   filter: invert(1);
   transition: filter 0.5s;
 }
-
 .profile:hover {
   filter: unset;
 }

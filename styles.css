@@ -34,11 +34,9 @@ body {
 }
 .left-nav {
   width: 30%;
-  /* outline: auto; */
 }
 .chat {
   width: 70%;
-  /* outline: auto; */
 }
 /* Top Headers of both sections */
 header {
@@ -49,7 +47,6 @@ header {
   justify-content: space-between;
   background-color: #3474eb;
   align-items: center;
-  /* z-index: 2; */
 }
 
 /* left-nav section */
@@ -150,7 +147,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* margin: 10px; */
   padding: 10px;
   height: 88%;
   background-color: #dddddd;
@@ -191,18 +187,12 @@ header {
 }
 .send-box {
   z-index: 2;
-  /* margin: 10px; */
   height: 12%;
-  /* padding: 2px; */
   padding: 0.5% 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* position: -webkit-sticky;
-  position: sticky;
-  bottom: 0; */
-  /* border-radius: 10px; */
   flex-direction: row;
   background-color: rgb(188, 184, 235);
 }
