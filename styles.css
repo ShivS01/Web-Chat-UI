@@ -166,6 +166,7 @@ header {
 }
 .message {
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   background-color: white;
   margin: 10px;
