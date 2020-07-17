@@ -66,7 +66,7 @@ header {
 }
 .input-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   border-radius: 20px;
   background-color: white;
   height: 100%;
@@ -76,7 +76,7 @@ header {
   align-self: center;
   border: none;
   height: 80%;
-  width: 90%;
+  width: 75%;
 }
 .input-wrapper .icon {
   background-size: 1em;
@@ -203,6 +203,9 @@ header {
   align-items: center;
 }
 
+.write-message .input-wrapper {
+  justify-content: center;
+}
 .write-message .input-bar {
   width: 95%;
 }
