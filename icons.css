@@ -21,6 +21,8 @@
 }
 .emoticon-icon {
   background-image: url("./svgs/grin.svg");
+  background-color: #a8a8a8;
+  border-radius: 4px;
 }
 .send-icon {
   background-image: url("./svgs/paper-plane.svg");
@@ -30,9 +32,13 @@
 .record-icon {
   background-image: url("./svgs/microphone.svg");
   background-size: 1em;
+  background-color: #9ea3ac;
+  border-radius: 4px;
 }
 .attachment-icon {
   background-image: url("./svgs/paperclip.svg");
+  background-color: #9ea3ac;
+  border-radius: 4px;
 }
 
 /* profile pictures */
@@ -75,8 +81,8 @@ header .profile {
 
 /* icon animation/effects */
 .icon:hover {
-  filter: invert(1);
-  transition: filter 0.5s;
+  filter: brightness(0.6);
+  transition: filter 0.25s;
 }
 .profile:hover {
   filter: unset;
