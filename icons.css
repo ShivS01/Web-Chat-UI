@@ -3,7 +3,8 @@
   width: 1.8em;
   height: 1.8em;
   background-size: 1.5em;
-  margin: 8px;
+  padding: 1.2em;
+  margin: 0 4px;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -21,8 +22,8 @@
 }
 .emoticon-icon {
   background-image: url("./svgs/grin.svg");
-  background-color: #a8a8a8;
-  border-radius: 4px;
+  /* background-color: #a8a8a8;
+  border-radius: 4px; */
 }
 .send-icon {
   background-image: url("./svgs/paper-plane.svg");
@@ -32,17 +33,19 @@
 .record-icon {
   background-image: url("./svgs/microphone.svg");
   background-size: 1em;
-  background-color: #9ea3ac;
-  border-radius: 4px;
+  /* background-color: #9ea3ac;
+  border-radius: 4px; */
 }
 .attachment-icon {
   background-image: url("./svgs/paperclip.svg");
-  background-color: #9ea3ac;
-  border-radius: 4px;
+  /* background-color: #9ea3ac;
+  border-radius: 4px; */
 }
 
 /* profile pictures */
 .profile {
+  margin: 8px;
+  padding: 0;
   background-image: url("./img/profile.jpg");
   width: 50px;
   height: 50px;
@@ -80,9 +83,25 @@ header .profile {
 }
 
 /* icon animation/effects */
-.icon:hover {
-  filter: brightness(0.6);
+.emoticon-icon:hover,
+.attachment-icon:hover,
+.record-icon:hover {
+  background-color: #d1d1d1;
+  filter: brightness(0.8);
   transition: filter 0.25s;
+  border-radius: 4px;
+}
+.send-icon:hover {
+  filter: invert(1);
+  transition: 0.25s;
+}
+.options .more-icon:hover,
+.options .search-icon:hover,
+.options .chat-icon:hover {
+  background-color: #2d55bd;
+  filter: brightness(0.8);
+  transition: filter 0.25s;
+  border-radius: 50%;
 }
 .profile:hover {
   filter: unset;
