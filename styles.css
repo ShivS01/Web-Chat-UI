@@ -27,7 +27,7 @@ header {
   display: flex;
   flex-direction: row;
   padding: 4px;
-  height: 10%;
+  height: 50px;
   width: inherit;
   justify-content: space-between;
   background-color: #3474eb;
