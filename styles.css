@@ -73,6 +73,7 @@ header {
 
 .send-box {
   z-index: 2;
+  margin: 0 10px;
   height: 10%;
   padding: 0.5% 2%;
   display: flex;
@@ -80,27 +81,29 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background-color: rgb(175, 175, 175);
+  background-color: inherit;
+  border: rgb(88, 88, 88);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 25px;
+  /* background-color: rgb(230, 230, 230); */
 }
-.input-wrapper {
+/* .input-wrapper {
   display: flex;
   justify-content: flex-start;
   border-radius: 20px;
   outline: thin;
   height: 100%;
   width: 100%;
-}
+} */
 .input-bar {
   align-self: center;
   border: none;
   height: 80%;
-  width: 75%;
+  width: 50%;
+  background-color: inherit;
 }
-.input-wrapper .icon {
-  background-size: 1em;
-  width: 1em;
-  height: 1em;
-}
+
 /* .write-message {
   display: flex;
   flex-direction: row;
